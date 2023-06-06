@@ -29,8 +29,8 @@ const App = () => {
       <h1 className="text-3xl font-bold my-16 text-center">Astronomy Pictures of the Day</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
         {apods.map(apod => (
-          <div key={apod.id} className="flex flex-col items-center bg-white rounded-md overflow-hidden">
-            <h2 className="text-lg font-bold my-14">{apod.photographer}</h2>
+          <div key={apod.id} className="flex flex-col items-center bg-white rounded-md overflow-hidden flex-col-height">
+            <h2 className="text-lg font-bold my-8">{apod.photographer}</h2>
             <img
               src={apod.src.large}
               alt={apod.photographer}

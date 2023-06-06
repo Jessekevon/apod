@@ -8,3 +8,9 @@ body {
   background-color: #e4e2d6;
   font-family: 'Roboto Flex', sans-serif;
 }
+
+@media (min-width: 640px) {
+  .flex-col-height {
+    height: 350px;
+  }
+}
